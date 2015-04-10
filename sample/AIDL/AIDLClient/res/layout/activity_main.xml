@@ -24,4 +24,14 @@
         android:layout_marginTop="148dp"
         android:text="获取对象信息" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:layout_marginTop="80dp"
+        android:text="获取复杂数据" />
+
 </RelativeLayout>

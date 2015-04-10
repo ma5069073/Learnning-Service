@@ -28,6 +28,12 @@
                 <action android:name="com.makk.aidlserver.MyService" />
             </intent-filter>
         </service>
+        
+        <service android:name="com.makk.aidlserver.SalaryService" >
+            <intent-filter>
+                <action android:name="com.makk.aidlserver.SalaryService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
